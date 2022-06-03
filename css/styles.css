@@ -1,0 +1,115 @@
+/*
+COLOUR PALETTE
+https://*coolors.co//*e8e9f3-092327-dba159-2374ab-70a288//*
+#E8E9F3 - Ghost White
+#00072D - Oxford Blue
+#FFC43D - Orange Yellow
+#2374AB - French Blue
+#70A288 - Polished Pine
+*/
+
+
+/*------------ GLOBAL STYLES -----------*/
+
+html {
+  box-sizing: border-box;
+}
+
+/* reformats header 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*/ 
+
+body {
+    width: fit-content;
+    background: #E8E9F3; /* polished pine */
+    color: #343434; /* dark gray, almost black */
+    padding: 0; /* end-to-end, no extra space around box */
+    margin: 0 auto; /* center alignment */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+a {    /* for hyperlinks */
+    color: #FFC43D; /* orange yellow */ 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*--------------- PROFILE ---------------*/
+
+
+header {   /* divider in header */
+    background: #00072D; /* oxford blue */
+    color: #E8E9F3; /* ghost white */ 
+    padding: 20px 50px; /* extra spacing */
+    margin: 0px auto;
+}
+
+.content-wrap  { /* name & title */
+    color: #E8E9F3; /* ghost white */
+    width: fit-content; /* fit to screen */
+    padding: 0px;
+    margin: 0 auto;
+}
+
+
+
+.summary { /* about me */
+    background: #E8E9F3; /* ghost white */
+    color: #00072D; /* oxford blue */ 
+    padding: 5px 25px; /* extra spacing */
+    width: fit-content;
+    border-radius: 30px; /* round corners */
+}
+
+.summary-projects { /* split columns */
+    display: grid; 
+    grid-template-columns: 3fr 2fr;
+    padding: 5px 25px;
+    column-gap: 30px;
+}
+
+
+.projects { /* featured projects */
+    color: #E8E9F3; /* ghost white */
+    padding: 0px 25px;
+    width: fit-content;
+}
+
+.about {
+text-align: center;
+}
+
+.skills {
+    color: #00072D;
+    width: fit-content;
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+.exp {
+    background: #70A288;
+    color: #00072D;
+    width: fit-content;
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+/*--------------- CONTACT INFO  ---------------*/
+footer {
+    background: #00072D;
+    color: #2374AB;
+    margin: 0 auto; 
+}
+
