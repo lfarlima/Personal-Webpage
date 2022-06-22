@@ -16,3 +16,24 @@ const percentage = document.querySelector('.progress span')
 
     }
     setInterval(progressLoad,90)
+    
+    @media screen and (max-width:640px) {
+           
+            .container{
+                width: 90%;
+            }
+
+            h1 {
+            font-size: 50px;
+            }
+
+            i {
+            font-size: 25px;
+            margin: 10px;
+        }
+        }
+        @media screen and (max-width:400px) {
+            h1 {
+            font-size: 30px;
+            }
+        }
